@@ -54,6 +54,10 @@ header .shopping span{
     padding: 20px;
     box-shadow: 0 50px 50px #757676;
     letter-spacing: 1px;
+    transition: 1s;
+}
+.list .item:hover{
+    transform: translateY(20px);
 }
 .list .item img{
     width: 90%;
